@@ -4,5 +4,11 @@
 
 #ex02 .box:hover {
   background: #143c4e;
+  transition-duration: 0.9s;
+}
+
+#ex03 .box:hover {
+  background: #143c4e;
   transition-duration: 0.5s;
+  transition-delay: 0.6s;
 }
