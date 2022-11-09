@@ -1,0 +1,8 @@
+#ex01 .box:hover:hover {
+  background: #143c4e;
+}
+
+#ex02 .box:hover {
+  background: #143c4e;
+  transition-duration: 0.5s;
+}
