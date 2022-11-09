@@ -2,13 +2,26 @@
   background: #143c4e;
 }
 
+#ex02 .box {
+  transition-duration: 0.9s;
+}
+
 #ex02 .box:hover {
   background: #143c4e;
-  transition-duration: 0.9s;
+}
+
+#ex03 .box {
+  transition-duration: 0.5s;
+  transition-delay: 0.4s;
 }
 
 #ex03 .box:hover {
   background: #143c4e;
+}
+
+#ex04 .box:hover {
+  color: #eff6e0;
+  background: #143c4e;
   transition-duration: 0.5s;
-  transition-delay: 0.6s;
+  transition-timing-function: ease-out;
 }
